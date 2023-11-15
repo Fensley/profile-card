@@ -1,0 +1,82 @@
+.profile-card{
+    display: flex;
+    background-color: rgb(234, 241, 241);
+    max-width: 300px;
+    width: 300px;
+    box-shadow: 0 5px rgb(220, 219, 219);
+    border-radius: 20px;
+    padding: 80px;
+   background-color: rgb(210, 208, 205);
+    
+    
+    
+
+}
+.profile-photo{
+    display: flex;
+    height: 200px;
+    width: 100px;
+    
+   
+    
+   
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(219, 227, 227);
+
+}
+img{
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid gray ;
+    margin-top: -0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 46px;
+    bottom: 60px;
+}
+
+.text-data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    right: 26px;
+    top: 60px;
+
+    
+}
+.last-name{
+   font-size: 15px;
+   font-weight: bold;
+   color: rgb(128, 125, 125);
+}
+.name{
+    font-size: 20px;
+    position: relative;
+    left:5px;
+}
+.box-container{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    right: 70px;
+    
+}
+
+.git{
+    position: relative;
+    margin-right: 20px;
+}
+.twitter{
+    position: relative;
+    margin-left: 20px;
+}
